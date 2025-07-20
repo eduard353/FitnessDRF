@@ -41,7 +41,7 @@ cd FitnessDRF
 ```env
 DEBUG=False
 SECRET_KEY="your_key"
-ALLOWED_HOSTS=127.0.0.1,localhost, your_domen
+ALLOWED_HOSTS=127.0.0.1,localhost, your_domain
 
 POSTGRES_DB=fitness_db_name
 POSTGRES_USER=fitness_user_name
