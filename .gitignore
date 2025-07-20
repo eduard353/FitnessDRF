@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Pytest / coverage / profiling
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.cache/
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+*.pot
+*.pyc
+*.log
+local_settings.py
+media/
+staticfiles/
+static/
+
+# Environment files
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# JetBrains (PyCharm, etc.)
+.idea/
+
+# macOS
+.DS_Store
+
+# Poetry
+poetry.lock
+__pypackages__/
+
+# Docker
+*.pid
+*.pid.lock
