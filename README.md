@@ -32,7 +32,7 @@
 ### 1. Клонируйте проект:
 
 ```bash
-git clone git@github.com:eduard353/FitnessDRF.git
+git clone https://github.com/eduard353/FitnessDRF.git
 cd FitnessDRF
 ```
 

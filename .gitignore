@@ -50,7 +50,6 @@ static/
 .DS_Store
 
 # Poetry
-poetry.lock
 __pypackages__/
 
 # Docker
