@@ -59,4 +59,27 @@ class UserAdmin(BaseUserAdmin):
         ("Важные даты", {"fields": ("last_login", "date_joined")}),
     )
 
+    add_fieldsets = (
+        (None, {
+            "classes": ("wide",),
+            "fields": (
+                "username",
+                "password1",
+                "password2",
+                "first_name",
+                "last_name",
+                "email",
+                "birthday",
+                "gender",
+                "phone_number",
+                "role",
+                "is_active",
+                "is_staff",
+                "is_superuser",
+                "groups",
+                "user_permissions",
+            ),
+        }),
+    )
+
     readonly_fields = ("date_joined", "last_login")
